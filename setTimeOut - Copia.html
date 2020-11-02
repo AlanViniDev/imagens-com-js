@@ -1,0 +1,28 @@
+<img id = "teste"></img>
+<img id = "teste2"></img>
+<script type = "text/javascript">
+   // setTimeout(function(){ document.getElementById("teste").src = "cabal.jpg"; }, 1);
+
+   setTimeout(function (){
+   const element = document.querySelector("#teste"); element.setAttribute("src", "cabal.jpg");
+   },1000);
+
+   
+   setTimeout(function (){
+   const element = document.querySelector("#teste"); element.setAttribute("src", "cabal2.jpg");
+   },6000);
+
+
+</script>
+
+<!--
+window.onload = function imageOption() {
+    document.getElementById("imageoption").src = "images/hyperx-option.png";
+}
+-->
+
+<!--
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("imageoption").src = "https://www.cleverfiles.com/howto/wp-content/uploads/2016/08/mini.jpg";
+ })
+-->
